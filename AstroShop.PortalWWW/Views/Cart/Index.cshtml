@@ -1,0 +1,126 @@
+﻿@model AstroShop.PortalWWW.Models.Shop.CartData
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_CartLayout.cshtml";
+}
+
+@if (Model.CartElements.Count < 1)
+{
+    <div class="d-flex flex-column justify-content-center align-items-center p-3 m-0 min-vh-100 bg-light">
+        <img src="pics/cart.png" width="200" height="200" style="object-fit: cover;" class="m-2" />
+        <h3>Oops..</h3>
+        <h3>It seems like your shopping cart is empty!</h3>
+        <a asp-action="Index" asp-controller="Shop" class="m-3 text-light button-purple p-3" style="border: none; background: none; text-decoration: none; border-radius: 8px;">Shop for products..</a>
+    </div>
+}
+else
+{
+    <div class="row m-0 bg-light min-vh-100">
+        <div class="col-sm-12 col-md-8 p-0" style="background: #F9F7F5;">
+            <div class="vstack h-100" style="width:100%; background: #F9F7F5;">
+                <div class="text-black p-5">
+                    <h1 class="m-2 my-3">Shopping Cart</h1>
+                    <table class="border-top my-2 w-100 p-2">
+                        <thead class="my-4">
+                            <tr class="my-4">
+                                <th></th>
+                                <th>
+                                    <h5 class="m-2 text-center" style="color: #3a3a3a;">
+                                        Product details
+                                    </h5>
+                                </th>
+                                <th>
+                                    <h5 class="m-2 text-center" style="color: #3a3a3a;">
+                                        Quantity
+                                    </h5>
+                                </th>
+                                <th>
+                                    <h5 class="m-2 text-center" style="color: #3a3a3a;">
+                                        Price
+                                    </h5>
+                                </th>
+                                <th>
+                                    <h5 class="m-2 text-center" style="color: #3a3a3a;">
+                                        Total
+                                    </h5>
+                                </th>
+                                <th>
+
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="p-2">
+                            @foreach (var item in Model.CartElements)
+                            {
+                                var totalPrice = item.Product.Price * item.Quantity;
+                                <tr class="border-bottom p-4">
+                                    <td class="m-2 align-top">
+                                        <img src="@item.Product.ImageURL" height="150" width="150" class="p-2" style="object-fit: cover; border-radius: 4px;" />
+                                    </td>
+                                    <td class="m-2 align-top text-center align-items-center">
+                                        @Html.ActionLink(item.Product.Name, "Details", "Shop", new {id=item.IDProduct}, new { @class = "nav-link text-purple h5"})
+                                    </td>
+                                    <td class="m-2 align-top text-center align-items-center p-2">
+                                        <div class="d-flex flex-row align-items-center justify-content-center">
+                                            <a asp-action="RemoveFromCart" asp-controller="Cart" asp-route-id="@item.IDProduct" class=" pad-2 mx-3 text-light" style="border:none; background: none;"><i class="fa-solid fa-minus text-purple"></i></a>
+                                            @String.Format("{0}", item.Quantity)
+                                            <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.IDProduct" class=" pad-2 mx-3 text-light" style="border:none; background: none;"><i class="fa-solid fa-plus text-purple"></i></a>
+                                        </div>
+                                    </td>
+                                    <td class="m-2 align-top text-center align-items-center p-2">
+                                        @String.Format("{0:F}", item.Product.Price)&euro;
+                                    </td>
+                                    <td class="m-2 align-top text-center justify-content-center align-items-center p-2">
+                                        @String.Format("{0:F}", totalPrice)&euro;
+                                    </td>
+                                    <td class="m-2 align-top text-center justify-content-center align-items-center p-2">
+                                        <a asp-action="AddToWishlist" asp-controller="Wishlist" asp-route-id="@item.IDProduct" class="m-3 navlink-button "><i class="fa-solid fa-heart icon-hover" style="font-size: 1.5rem; color: #E3C7BE;"></i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a asp-action="Index" asp-controller="Shop" class="btn button-purple p-3 mx-2 my-4 text-light w-auto"><i class="fa-solid fa-arrow-left text-light"></i> Continue shopping</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 p-0 h-100" style="height: 100%;">
+            <div class="vstack text-black p-5">
+                <h2 class="m-2">Order summary</h2>
+                <div class="vstack h-auto">
+                    @foreach (var item in Model.CartElements)
+                    {
+                        var totalPrice = item.Product.Price * item.Quantity;
+                        <div class="d-flex flex-row justify-content-between mx-2 my-1" style="padding-top: 1rem;">
+                            @if (item.Quantity > 1)
+                            {
+                                <h6 style="margin-right: 2rem; font-weight: 200;">@item.Product.Name (@item.Quantity)</h6>
+                            }
+                            else
+                            {
+                                <h6 style="margin-right: 2rem; font-weight: 200;">@item.Product.Name</h6>
+                            }
+                            <h6>
+                                @String.Format("{0:F}", totalPrice)&euro;
+                            </h6>
+                        </div>
+                    }
+                    <h4 class="border-top my-3 p-2">
+                        Total: @String.Format("{0:F}", Model.Total)&euro;
+                    </h4>
+                    <a asp-action="Checkout" asp-controller="Cart" class="btn button-purple p-2 text-light w-100">Checkout</a>
+                    <div class="d-flex flex-row justify-content-around align-items-center my-3">
+                        <img src="pics/visa.png" width="40" height="40" style="object-fit:contain;" />
+                        <img src="pics/ax.png" width="40" height="40" style="object-fit:contain;" />
+                        <img src="pics/maestro.png" width="40" height="40" style="object-fit:contain;" />
+                        <img src="pics/mc.png" width="40" height="40" style="object-fit:contain;" />
+                        <img src="pics/btc.png" width="40" height="40" style="object-fit:contain;" />
+                        <img src="pics/eth.png" width="40" height="40" style="object-fit:contain;" />
+                    </div>
+                    <p class="my-1 text-center" style="color: #aaa;">*Accepted payment methods</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}

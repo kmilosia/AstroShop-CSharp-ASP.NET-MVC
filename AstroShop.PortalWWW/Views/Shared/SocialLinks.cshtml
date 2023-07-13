@@ -1,0 +1,10 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.SocialLinks>
+
+<section class="text-center p-2 mt-4">
+    @foreach(var item in Model)
+    {
+        <a class="btn btn-floating m-1" href="@item.URLAdress" role="button">
+            <i class="@item.Icon"></i>
+        </a>
+    }
+</section>

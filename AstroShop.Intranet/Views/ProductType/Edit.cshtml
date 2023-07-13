@@ -1,0 +1,38 @@
+﻿@model AstroShop.Data.Data.Shop.Type
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="dark-theme-primary-bg">
+    <div class="swift-window mar-top-2 pad-2">
+        <h4 class="pad-2" style="margin-left: 4rem;">Edit product type</h4>
+        <div class="row" style="padding:0rem 4rem;">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="red-text"></div>
+                <input type="hidden" asp-for="IDType" />
+                <div class="col s12">
+                    <label asp-for="Name" style="margin-left: 0.5rem;font-size:1.2rem; color:white;"></label>
+                    <input asp-for="Name" class="black-text" style="border-radius: 3px; padding: 0.5rem; margin-top: 1rem; margin-bottom: 1rem; background-color: #f9f9f9;" />
+                    <span asp-validation-for="Name" class="red-text"></span>
+                </div>
+                <div class="col s12">
+                    <label asp-for="Description" style="margin-left: 0.5rem;font-size:1.2rem; color:white;"></label>
+                    <input asp-for="Description" class="gray-bg black-text" style="border-radius: 3px; padding: 0.5rem; margin-top: 1rem; margin-bottom: 1rem; background-color: #f9f9f9;" />
+                    <span asp-validation-for="Description" class="red-text"></span>
+                </div>
+              
+                <div class="center mar-1 col s12">
+                    <button type="submit" style="border: none; background: transparent;">
+                        <i class="fa-solid fa-check dark-theme-accent hover-element pad-2 fs-15 tooltipped" data-position="top" data-tooltip="Accept"></i>
+                    </button>
+                    <a asp-action="Index"><i class="fa-solid fa-arrow-left dark-theme-accent hover-element fs-15 pad-1 tooltipped" data-position="top" data-tooltip="Go back"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

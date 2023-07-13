@@ -1,0 +1,41 @@
+﻿@model AstroShop.Data.Data.Shop.Product
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_ShopLayout.cshtml";
+}
+
+<div class="p-4" style="width:100%; background:rgba(255,255,255,0.9);">
+        <div class="row px-4 py-2">
+            <div class="col-sm-12 mb-4">
+            @Html.ActionLink("Back to " + Model.Type.Name, "Index", "Shop", new {id=Model.IDType},new {@style= "background: none; border:none; text-decoration: none;color:#6671a3;font-weight:bold;"})
+            </div>
+            <div class="col-sm-12 col-md-7 d-flex justify-content-center">
+                <img src="@Model.ImageURL" alt="Product Image" class="img-fluid" style="border-radius: 8px; width: 100%; height: auto; object-fit:cover;">
+            </div>
+            <div class="col-sm-12 col-md-5 mt-3">
+            <h1 class="my-4">
+                @Model.Name
+            </h1>
+            <h4 class="my-4">
+                @String.Format("{0:0.##}",Model.Price) &euro;
+            </h4>
+            <p class="my-4" style="margin-right:2rem;">
+                @Model.Header
+            </p>
+            <h3 class="my-2">Specifications</h3>
+            <p class="my-4">
+                @Html.Raw(Model.Specifications)
+            </p>
+            <div class="d-flex flex-row my-4">
+                <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.IDProduct" style="margin-right: 0.5rem;" class="btn button-purple text-light p-3" style="background:#6671A3;display:inline;padding: 1rem 2rem;">Add to Cart</a>
+                <a asp-action="AddToWishlist" asp-controller="Wishlist" asp-route-id="@Model.IDProduct" class="btn text-light p-3" style="background:#E3C7BE;display:inline;padding: 1rem 2rem;"><i class="fa-solid fa-heart text-light"></i></a>
+            </div>
+                <p class="my-3" style="font-weight: 200;">Product code: @Model.Code</p>
+            </div>
+            <div class="col-sm-12 my-4 py-2 px-4">
+            @Html.Raw(Model.Description)
+        </div>
+        </div>
+    </div>
+
+

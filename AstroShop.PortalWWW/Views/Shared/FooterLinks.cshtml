@@ -1,0 +1,9 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.FooterLinks>
+
+    @foreach (var item in Model)
+    {
+        <p>
+            @Html.ActionLink(item.LinkTitle, item.Title, "Home", new {id=item.IDFooterLinks}, new { @class = "text-light underline-link"})
+        </p>
+    }
+

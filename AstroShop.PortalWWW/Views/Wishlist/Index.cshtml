@@ -1,0 +1,52 @@
+﻿@model AstroShop.PortalWWW.Models.Shop.WishlistData
+@{
+    ViewData["Title"] = "Wishlist";
+    Layout = "~/Views/Shared/_WishlistLayout.cshtml";
+}
+
+@if (Model.WishlistElements.Count < 1)
+{
+    <div class="d-flex flex-column justify-content-center align-items-center p-3 m-0 min-vh-100 bg-light">
+        <img src="pics/basket.png" width="200" height="200" style="object-fit: cover;" class="m-2" />
+        <h3>Oops..</h3>
+        <h3>Your wishlist is empty!</h3>
+        <h5>Fill up your wishlist by adding new products!</h5>
+        <a asp-action="Index" asp-controller="Shop" class="m-3 text-light button-purple p-3" style="border: none; background: none; text-decoration: none; border-radius: 8px;">Browse the products..</a>
+    </div>
+}
+else
+{
+    <div class="row m-0 min-vh-100">
+        <div class="col-sm-12 p-0">
+            <div class="vstack h-100" style="width:100%;">
+                <div class="bg-light text-black p-5">
+                    <h1 class="m-2 my-3 p-3 border-bottom">Wishlist</h1>
+                    <div class="row p-2">
+                        @foreach (var item in Model.WishlistElements)
+                        {
+                            <div class="col-sm-12 col-md-4 p-3" style="border-radius: 8px; background: white;">
+                                <div class="d-flex flex-row p-2">
+                                    <img src="@item.Product.ImageURL" height="200" width="200" class="p-2" style="object-fit: cover;" />
+                                    <div class="vstack">
+                                        @Html.ActionLink(item.Product.Name, "Details", "Shop", new {id=item.IDProduct}, new { @class = "text-dark nav-link h4"})
+                                        <h6 class="mx-3">
+                                            @String.Format("{0:F}", item.Product.Price)&euro;
+                                        </h6>
+                                        <div class="hstack my-3 mx-2">
+                                            <a asp-action="AddToCartAndRemoveFromWishlist" asp-controller="Wishlist" asp-route-id="@item.IDProduct" class="m-1 text-light" style="border:none; border-radius: 4px; background: #3F579D; padding: 1rem 1.5rem;"><i style="font-size: 1rem;" class="fa-solid fa-cart-shopping text-light"></i></a>
+                                            <a asp-action="RemoveFromWishlist" asp-controller="Wishlist" asp-route-id="@item.IDProduct" class="m-1 text-light" style="border:none; border-radius: 4px; background: #E3C7BE; padding:1rem 1.5rem;"><i style="font-size: 1rem;" class="fa-solid fa-trash text-light"></i></a>                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="my-3 p-3 d-flex flex-row justify-content-between">
+                        <a asp-action="Index" asp-controller="Shop" class="btn button-purple p-3 mx-2 my-4 text-light w-auto"><i class="fa-solid fa-arrow-left text-light"></i> Continue browsing the products</a>
+                        <a asp-action="MoveToCart" asp-controller="Wishlist" class="btn p-3 mx-2 my-4 text-light w-auto" style="background: #E3C7BE;">Move all to the shopping cart <i class="fa-solid fa-cart-shopping text-light"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,4 @@
+﻿@{
+    ViewData["Title"] = "News";
+}
+@await Html.PartialAsync("NewsSection",(IEnumerable<AstroShop.Data.Data.CMS.News>) ViewBag.NewsModel)

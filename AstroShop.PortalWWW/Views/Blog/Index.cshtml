@@ -1,0 +1,36 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.Blog>
+@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Views/Shared/_BlogLayout.cshtml";
+}
+<div class="vstack mx-4 my-3 text-light p-4">
+    @foreach (var item in Model)
+    {
+        <h1 class="text-center mt-2 mb-2 display-2">Our @item.BlogType.Name</h1>
+        <h3 class="text-center mt-2 mb-2 display-5">Read our best content for Astrophotography enthusiasts</h3>
+        break;
+    }
+    @await Html.PartialAsync("BlogMenu",(IEnumerable<AstroShop.Data.Data.CMS.BlogType>) ViewBag.BlogType)
+    <div class="row mx-0 my-sm-3 text-dark">
+            @foreach(var item in Model)
+            {
+            <div class="col-sm-12 col-md-4 my-2">
+                <div class="card mx-auto w-100 bg-light">
+                    <img src="@item.ImageURL" class="card-img-top" style="object-fit: cover; height: 30vh">
+                    <div class="card-body text-center p-2">
+                        <h6 class="bold m-2">
+                            @item.CreationDate
+                        </h6>
+                        <h4 class="card-title m-2">
+                            @Html.ActionLink(item.Title, "Details", "Blog", new {id=item.IDBlog},new {@class= "nav-link text-dark"})
+                        </h4>
+                        <p class="card-text m-2">
+                            @item.Heading
+                        </p>
+                        @Html.ActionLink("Read more", "Details", "Blog",new {id=item.IDBlog}, new { @class = "btn button-purple text-light m-2"})
+                    </div>
+                </div>
+            </div>              
+            }
+    </div>
+</div>

@@ -1,0 +1,253 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AstroShop.Intranet
+build_property.RootNamespace = AstroShop.Intranet
+build_property.ProjectDir = C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Intranet\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Intranet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/BlogType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1R5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/BlogType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1R5cGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/BlogType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1R5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/BlogType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1R5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/BlogType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1R5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Blog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ContactLinks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdExpbmtzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ContactLinks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdExpbmtzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ContactLinks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdExpbmtzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ContactLinks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdExpbmtzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ContactLinks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdExpbmtzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/FooterLinks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTGlua3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/FooterLinks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTGlua3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/FooterLinks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTGlua3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/FooterLinks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTGlua3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/FooterLinks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTGlua3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Page/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Page/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Page/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Page/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Page/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductsLinks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNMaW5rc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductsLinks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNMaW5rc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductsLinks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNMaW5rc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductsLinks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNMaW5rc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductsLinks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNMaW5rc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/ProductType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/SocialLinks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTGlua3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/SocialLinks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTGlua3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/SocialLinks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTGlua3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/SocialLinks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTGlua3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/SocialLinks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTGlua3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaud/OneDrive/Pulpit/Studia/Semestr VI/Programowanie internetowych aplikacji biznesowych/AstroShop 25 June/AstroShop.Intranet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-di9msfm6m5

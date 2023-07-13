@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AstroShop.Intranet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AstroShop.Intranet.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\materialize"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\README.md",
+      "PackagePath": "staticwebassets\\lib\\materialize\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\lib\\materialize\\css\\materialize.css"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\css\\materialize.min.css",
+      "PackagePath": "staticwebassets\\lib\\materialize\\css\\materialize.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\js\\materialize.js",
+      "PackagePath": "staticwebassets\\lib\\materialize\\js\\materialize.js"
+    },
+    {
+      "Id": "C:\\Users\\klaud\\OneDrive\\Pulpit\\Studia\\Semestr VI\\Programowanie internetowych aplikacji biznesowych\\AstroShop 25 June\\AstroShop.Intranet\\wwwroot\\lib\\materialize\\js\\materialize.min.js",
+      "PackagePath": "staticwebassets\\lib\\materialize\\js\\materialize.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AstroShop.Intranet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AstroShop.Intranet.props",
+      "PackagePath": "build\\AstroShop.Intranet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AstroShop.Intranet.props",
+      "PackagePath": "buildMultiTargeting\\AstroShop.Intranet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AstroShop.Intranet.props",
+      "PackagePath": "buildTransitive\\AstroShop.Intranet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

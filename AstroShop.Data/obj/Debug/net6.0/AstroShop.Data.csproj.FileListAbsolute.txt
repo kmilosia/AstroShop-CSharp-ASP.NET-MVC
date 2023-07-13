@@ -1,0 +1,48 @@
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\refint\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop\AstroShop.Data\obj\Debug\net6.0\ref\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\refint\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia\AstroShop.Data\obj\Debug\net6.0\ref\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\refint\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop Kopia - Copy - Copy\AstroShop.Data\obj\Debug\net6.0\ref\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.deps.json
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\bin\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.AssemblyReference.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfoInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.AssemblyInfo.cs
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\refint\AstroShop.Data.dll
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\AstroShop.Data.pdb
+C:\Users\klaud\OneDrive\Pulpit\Studia\Semestr VI\Programowanie internetowych aplikacji biznesowych\AstroShop 25 June\AstroShop.Data\obj\Debug\net6.0\ref\AstroShop.Data.dll

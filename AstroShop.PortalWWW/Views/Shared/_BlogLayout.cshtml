@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+
+    <title>@ViewData["Title"]</title>
+</head>
+<body style="background: rgb(189,165,156);
+      background: linear-gradient(90deg, rgba(189,165,156,1) 0%, rgba(63,87,157,1) 100%);">
+    <nav class="navbar navbar-expand-lg text-light p-4" style="background-color: rgba(255, 255, 255, .1);">
+        @await Html.PartialAsync("Navlinks",(IEnumerable<AstroShop.Data.Data.CMS.Page>) ViewBag.PageModel)
+    </nav>
+
+    <div class="w-100 min-vh-100 vstack">
+        @RenderBody()
+    </div>
+    <footer class="text-center text-lg-start text-light p-4" style="background-color: rgba(255, 255, 255, .1);">
+        <section class="container p-4">
+                        
+                @await Html.PartialAsync("SocialLinks", (IEnumerable<AstroShop.Data.Data.CMS.SocialLinks>) ViewBag.SocialLinksModel)
+                        
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <a class="navbar-brand nav-link" href="@Url.Action("Index", "Home")"><img src="https://iili.io/H8IDNf9.png" style="width:200px;height:auto;" /></a>
+                    </div>
+                                       
+                        @await Html.PartialAsync("ProductsLinks", (IEnumerable<AstroShop.Data.Data.CMS.ProductsLinks>) ViewBag.ProductsLinksModel)
+                                        
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class=" fw-bold mb-4">Links</h6>
+                                               
+                            @await Html.PartialAsync("FooterLinks", (IEnumerable<AstroShop.Data.Data.CMS.FooterLinks>) ViewBag.FooterLinksModel)
+                        
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class=" fw-bold mb-4">Contact</h6>
+                                                
+                            @await Html.PartialAsync("ContactLinks", (IEnumerable<AstroShop.Data.Data.CMS.ContactLinks>) ViewBag.ContactLinksModel)
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-end p-4">
+            <h6 class="fw-light">&copy; 2023 AstroShop</h6>
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/6def7c65e6.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

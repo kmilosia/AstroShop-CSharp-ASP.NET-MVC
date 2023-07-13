@@ -1,0 +1,6 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.ContactLinks>
+    @foreach (var item in Model)
+    {
+    <a href="@item.URLAdress" class="footer-link text-light my-3"><i class="@item.Icon" style="color:#3F579D;"></i>@item.Content</a>
+    }
+

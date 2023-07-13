@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="vstack min-vh-100 w-100">
+    <div class="border-bottom p-5 text-center">
+        <h1 class="text-dark display-4 my-2">Products</h1>
+    </div>
+    <div class="d-flex flex-column p-sm-3 p-md-4">
+        <div class="container">
+            <h3 class="fw-light p-3 text-center my-2">
+                Discover our variety of products chosen by our experts! All the products in our shop are destined for Astrophotography including Deep Sky Photography and Sky Panoramas.
+            </h3>
+            <div class="row mb-3 mt-2">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-camera.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Cameras</h5>
+                            <p class="card-text">Explore our choice of cameras designed specially for astrophotography.</p>
+                            @Html.ActionLink("Go to cameras..", "Cameras", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-lens.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Lenses</h5>
+                            <p class="card-text">Discover our wide range of lenses with focal lengths designed for astrophotography.</p>
+                            @Html.ActionLink("Go to lenses..", "Lenses", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-filter.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Filters</h5>
+                            <p class="card-text">Camera filters essential for blocking unwanted UV and light pollution.</p>
+                            @Html.ActionLink("Go to filters..", "Filters", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-mount.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountings</h5>
+                            <p class="card-text">Professional mountings for long exposure captures.</p>
+                            @Html.ActionLink("Go to mountings..", "Mountings", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-tripod.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Tripods</h5>
+                            <p class="card-text">Tripods are essential for stable captures of deep sky and nebulas.</p>
+                            @Html.ActionLink("Go to tripods..", "Tripods", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mx-auto w-100 my-3">
+                        <img src="~/assets/cards-images/products-accessories.jpg" class="card-img-top" style="object-fit: cover; height: 30vh">
+                        <div class="card-body">
+                            <h5 class="card-title">Accessories</h5>
+                            <p class="card-text">Check our accessories for easier trips and photo adventures.</p>
+                            @Html.ActionLink("Go to accessories..", "Accessories", "Home", null, new { @class = "card-link text-info"})
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

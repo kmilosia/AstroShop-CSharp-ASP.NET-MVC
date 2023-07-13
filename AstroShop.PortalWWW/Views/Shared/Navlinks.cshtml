@@ -1,0 +1,25 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.Page>
+<div class="container-fluid">
+    <a class="navbar-brand nav-link" href="@Url.Action("Index", "Home")"><img src="https://iili.io/H8IDNf9.png" style="width:200px; height: auto;" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-light"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            @foreach(var item in Model)
+            {
+                <li class="nav-item">
+                    @Html.ActionLink(item.LinkTitle, "Index", "Home", new {id=item.IDPage},new {@class= "nav-link text-light"})
+               </li>
+            }
+            <li class="nav-item">
+                @Html.ActionLink("Blog", "Index", "Blog",null, new {@class= "nav-link text-light"})
+            </li>
+            <li class="nav-item">
+                @Html.ActionLink("Shop", "Index", "Shop",null, new {@class= "nav-link text-light"})
+            </li>          
+        </ul>
+        <a asp-action="Index" asp-controller="Wishlist" class="my-3 mx-sm-0 mx-md-1 navlink-button "><i class="fa-solid fa-heart icon-hover" style="font-size: 1.5rem; color: #E3C7BE;"></i></a>
+        <a asp-action="Index" asp-controller="Cart" class="m-3 navlink-button "><i class="fa-solid fa-cart-shopping text-light icon-hover" style="font-size: 1.5rem;"></i></a>
+    </div>
+</div>

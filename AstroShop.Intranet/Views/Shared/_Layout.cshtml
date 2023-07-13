@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Firma.Intranet</title>
+
+    <!-- CSS  -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/lib/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="~/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<body>
+
+    <div class="row dark-theme-primary-bg mar-0" style="min-height: 100vh;">
+        <div class="col s12 m3 white-text l3 h-100p center-align center" id="sidebar" style="padding-top: 1rem; padding-bottom: 1rem;">
+            <a class="nav-link white-text mar-2" style="margin-top: 3rem;" asp-area="" asp-controller="Home" asp-action="Index"><img src="https://iili.io/H8IDNf9.png" style="width:200px;height:auto;" /></a>
+            <ul class="sidebar-list left-align left">
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-house" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="sidebar-list-el">
+                    <p class="mar-0 white-text" style="font-weight:bold; font-size: 1.5rem;">CMS</p>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-newspaper" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="News" asp-action="Index">News</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-newspaper" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="Blog" asp-action="Index">Blog</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-glasses" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="BlogType" asp-action="Index">Blog Types</a>
+                </li>
+    
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-file" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="Page" asp-action="Index">Pages</a>
+                </li>               
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-brands fa-twitter" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="SocialLinks" asp-action="Index">Social-Media Links</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-address-book" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="ContactLinks" asp-action="Index">Contact Links</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-bag-shopping" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="ProductsLinks" asp-action="Index">Product-Type Links</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-link" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="FooterLinks" asp-action="Index">Footer Links</a>
+                </li>        
+                <li class="sidebar-list-el">
+                    <p class="mar-0 white-text" style="font-weight:bold; font-size: 1.5rem;">Shop</p>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-camera" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                </li>
+                <li class="sidebar-list-el side-menu-el">
+                    <i class="fa-solid fa-box" style="color: #a16eff; font-size: 2rem; margin-right:1rem;"></i>
+                    <a class="nav-link white-text" asp-area="" asp-controller="ProductType" asp-action="Index">Product Types</a>
+                </li>             
+            </ul>
+        </div>
+        <div class="col s12 m9 l9 dark-theme-primary-bg white-text">
+            <nav class="dark-theme-accent-bg white-text nav-main" style="border-radius: 0px 4px 4px 4px;">
+                
+            </nav>
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <!--  Scripts-->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/materialize/js/materialize.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="https://kit.fontawesome.com/6def7c65e6.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.tooltipped').tooltip();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<AstroShop.Data.Data.CMS.News>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="dark-theme-primary-bg">
+    <div class="swift-window pad-2 mar-top-2 mar-bottom-2 flex-center flex-column" style="width: auto;">
+        <div class="pad-2 flex-center flex-column" style="width: 70%;">
+            <h3 class="bolder mar-1">News</h3>
+            <h4 class="mar-1 center">News about the latest astrophotography equipment and new techniques of capturing the starry sky, deep sky and sky objects</h4>
+            <a asp-action="Create" class="create-button mar-1">Create new</a>
+        </div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="col s12 m4 mar-bottom-2 pad-1" style="padding-left: 0rem;">
+            <div class="swift-window flex-column" style="padding: 3rem;">
+                <img src="@Url.Content(item.ImageURL)" style="object-fit: cover; height: 40vh" />
+                <h4 class="mar-1" style="margin-left: 0rem;">
+                    @Html.DisplayFor(modelItem => item.Title)
+                </h4>
+                <h5 class="mar-1" style="margin-left: 0rem;">
+                    @Html.DisplayFor(modelItem => item.Author)
+                </h5>
+                <h6 class="mar-0" style="margin-left: 0rem;">
+                    @Html.DisplayFor(modelItem => item.CreationDate)
+                </h6>
+                <p class="mar-1" style="margin-left: 0rem;">
+                    
+                    @Html.DisplayFor(modelItem => item.Heading)
+                </p>
+                <a asp-action="Details" asp-route-id="@item.IDNews" class="dark-theme-accent mar-0 bolder" >Read more details..</a>
+                <div class="center">
+                    <a asp-action="Edit" asp-route-id="@item.IDNews"><i class="fa-solid fa-pen-to-square dark-theme-accent fs-15 mar-1"></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.IDNews"><i class="fa-solid fa-trash dark-theme-accent fs-15 mar-1"></i></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

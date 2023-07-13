@@ -1,0 +1,15 @@
+﻿@model AstroShop.Data.Data.CMS.News
+@{
+    ViewData["Title"] = @Model.LinkTitle;
+}
+<div class="w-100 text-dark bg-light">
+    <img src="@Model.ImageURL" class="w-100" style="object-fit: cover; height: 50vh" />
+    <div class="text-center border-bottom m-4 p-2">
+        <h1 class="text-center text-dark m-3">@Model.Title</h1>
+        <h5 class="text-center text-dark fw-light m-3">Published on @Model.CreationDate by @Model.Author</h5>
+        <h6 class="bold text-purple fw-light m-3">@Model.Category</h6>
+    </div>
+    <div class="m-4 p-2 text-left">
+        @Html.Raw(Model.Content)
+    </div>
+</div>

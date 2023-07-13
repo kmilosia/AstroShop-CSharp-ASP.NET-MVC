@@ -1,0 +1,160 @@
+﻿@model AstroShop.PortalWWW.Models.Shop.CartData
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_CartLayout.cshtml";
+}
+
+    <div class="row m-0 bg-light min-vh-100">
+        <div class="col-sm-12 col-md-8 p-0" style="background: #F9F7F5;">
+            <div class="vstack h-100" style="width:100%; background: #F9F7F5;">
+                <div class="text-black p-5">
+                    <h1 class="mx-3 my-2">Checkout</h1>
+                    <div class="vstack p-3">
+                        <div class="hstack border-bottom py-2 align-items-center">
+                            <h6>Do you already have an account?</h6>
+                            <a class="h6 text-purple mx-2" style="cursor:pointer; text-decoration: none;">Sign in</a>
+                        </div>
+                        <h3 class="my-3">Shipping details</h3>
+                        <div class="row border-bottom" style="padding-bottom: 2rem;">
+                            <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*First name:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+                            </div>
+                        <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*Last name:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+                        </div>
+                        <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*Country:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*City:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 vstack my-1">
+                            <p class="my-1 fw-lighter">*Street:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-4 vstack my-1">
+                            <p class="my-1 fw-lighter">*House Number:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-4 vstack my-1">
+                            <p class="my-1 fw-lighter">*Zip Code:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-4 vstack my-1">
+                            <p class="my-1 fw-lighter">*Region:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*Phone number:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 col-md-6 vstack my-1">
+                            <p class="my-1 fw-lighter">*Email address:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+
+                        </div>
+                        <div class="col-sm-12 vstack my-1">
+                            <p class="my-1 fw-lighter">Notes regarding the order:</p>
+                            <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+                        </div>
+                        </div>
+                    <h3 class="my-3">Payment methods</h3>
+                    <div class="vstack">
+                        <fieldset>
+                            <div class="hstack">
+                                <input class="m-1" type="radio" id="radio1" value="radio1" name="radio1" checked />
+                                <h6 class="mx-1 fw-normal">Bank transfer</h6>
+                            </div>
+                            <div class="hstack">
+                                <input class="m-1" type="radio" id="radio1" value="radio1" name="radio1" />
+                                <div class="hstack">
+                                    <h6 class="mx-1 fw-normal">Debit card</h6>
+                                    <img src="~/pics/visa.png" width="40" height="40" class="mx-1" style="object-fit:contain;" />
+                                    <img src="~/pics/maestro.png" width="40" height="40" class="mx-1" style="object-fit:contain;" />
+                                </div>
+                            </div>
+                            <div class="hstack">
+                                <input class="m-1" type="radio" id="radio1" value="radio1" name="radio1" />
+                                <div class="hstack">
+                                    <h6 class="mx-1 fw-normal">Credit card</h6>
+                                    <img src="~/pics/mc.png" width="40" height="40" class="mx-1" style="object-fit:contain;" />
+                                    <img src="~/pics/ax.png" width="40" height="40" class="mx-1" style="object-fit:contain;" />
+                                </div>
+                            </div>
+                            <div class="hstack">
+                            <input class="m-1" type="radio" id="radio1" value="radio1" name="radio1" />
+                            <div class="hstack">
+                                <h6 class="mx-1 fw-normal">Cryptocurrency</h6>
+                                    <img src="~/pics/btc.png" width="30" height="30" class="mx-1" style="object-fit:contain;" />
+                                    <img src="~/pics/eth.png" width="30" height="30" class="mx-1" style="object-fit:contain;" />
+                            </div>
+                            </div>
+                        </fieldset>
+                        <p class="my-1" style="color: #aaa;">*Accepted payment methods</p>
+                        <div class="vstack my-2 border-top">
+                            <h6 class="fw-light my-2">Your personal data will be used to process your order and other purposes described in our privacy policy.</h6>
+                            <div class="hstack align-items-center">
+                                <input type="checkbox" class="mx-1" />
+                                <h6 class="my-1">I have read and agree to the website <a class="text-purple" target="_blank" style="text-decoration: none;" href="www.facebook.com">terms and conditions</a>*</h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 p-0 h-100" style="height: 100%;">
+            <div class="vstack text-black p-5">
+                <h2 class="m-2">Your order</h2>
+                <div class="vstack h-auto">
+                    @foreach (var item in Model.CartElements)
+                    {
+                        var totalPrice = item.Product.Price * item.Quantity;
+                        <div class="d-flex flex-row justify-content-between mx-2 my-1" style="padding-top: 1rem;">
+                            @if (item.Quantity > 1)
+                            {
+                                <h6 style="margin-right: 2rem; font-weight: 200;">@item.Product.Name (@item.Quantity)</h6>
+                            }
+                            else
+                            {
+                                <h6 style="margin-right: 2rem; font-weight: 200;">@item.Product.Name</h6>
+                            }
+                            <h6>
+                                @String.Format("{0:F}", totalPrice)&euro;
+                            </h6>
+                        </div>
+                    }
+                <div class="d-flex flex-row justify-content-between mx-2 my-1" style="padding-top: 1rem;">
+                    <h6 style="margin-right: 2rem; font-weight: 200;">Shipping costs*</h6>
+                    @if (Model.Total > 99)
+                    { <h6>0,00&euro;</h6>
+                    }
+                    else
+                    { <h6>9,99&euro;</h6>
+                    }
+                </div>
+                    
+                <h4 class="border-top p-2">Promo Code</h4>
+                <input class="my-1 p-1" style="border: 1px solid #E3C7BE; border-radius: 4px;" />
+                <button class="btn p-2 text-light w-100 my-2" style="background: #E3C7BE;">Redeem Code</button>
+                <h4 class="my-3 p-2 border-top">
+                    Total: @String.Format("{0:F}", Model.Total)&euro;
+                </h4>
+                <button class="btn button-purple p-2 text-light w-100">Proceed to payment and place order</button>
+                <p class="my-2" style="color: #aaa;">*Free shipping from 99&euro;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
